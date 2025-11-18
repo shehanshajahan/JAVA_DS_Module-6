@@ -12,9 +12,9 @@ To write a JAVA program To determine the minimum value (e.g., lowest heartbeat),
 
 4. Call a recursive function findMin(arr, index)
 
-If index == arr.length - 1, return arr[index]
+ If index == arr.length - 1, return arr[index]
 
-Else return min(arr[index], findMin(arr, index + 1))
+ Else return min(arr[index], findMin(arr, index + 1))
 
 5. Print the minimum value returned by the recursive function.
 
