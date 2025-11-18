@@ -5,6 +5,12 @@ To write a Java program to Count how many times a number appears in an array rec
 
 ## Algorithm
 
+1. Start from the first index of the array.
+2. Check if the current element matches the number we are counting.
+3. Recursively call the function for the rest of the array.
+4. Add 1 if current element matches, otherwise 0.
+5. Base case: if the index reaches the length of the array, return 0.
+
 ## Program:
 ```
 /*
